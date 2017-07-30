@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MinaRoll/Pinterest/issues"
   },
-  "homepage": "https://github.com/MinaRoll/Pinterest#readme"
+  "homepage": "https://github.com/MinaRoll/Pinterest#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
