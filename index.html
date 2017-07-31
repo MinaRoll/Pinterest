@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pinterest</title>
+	
+	<link rel="stylesheet" href="dist/css/style.min.css">
+</head>
+<body>
+	<header>
+		<!-- Menu -->
+		<ul class="menu-one">
+			<li><a href="#" class="red"><span class="fa-stack fa-lg">
+			  <i class="fa fa-circle fa-stack-2x"></i>
+			  <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i></span></a>
+			</li>
+			<li class="busqueda-box">
+				<div class="lupa-icon">
+					<i class="fa fa-search" aria-hidden="true"></i>
+					<input type="text" placeholder="wedding">
+					<i class="fa fa-times" aria-hidden="true"></i>
+				</div>
+				<div class="caja-pins">
+					<span>Todos los Pines<i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+				</div>
+			</li>
+			<li><a href="#"><span class="fa-stack fa-lg">
+			  <i class="fa fa-circle fa-stack-2x white"></i>
+			  <i class="fa fa-user fa-stack-1x"></i></span></a>
+			</li>
+			<li><a href="#"><span class="fa-stack fa-lg">
+			  <i class="fa fa-circle fa-stack-2x white"></i>
+			  <i class="fa fa-bars fa-stack-1x"></i></span></a>
+			</li>
+			<li><a href="#"><span class="fa-stack fa-lg">
+			  <i class="fa fa-circle fa-stack-2x white"></i>
+			  <i class="fa fa-commenting fa-stack-1x"></i></span></a>
+			</li>
+		</ul>
+		<ul class="menu-two">
+			<div class="botones botones-1">
+				<p class="opaci">Dress</p>
+			</div>
+			<div class="botones botones-2">
+				<p>San Miguel de Allende</p>
+			</div>
+			<div class="botones botones-3">
+				<p class="opaci">Friki</p>
+			</div>
+			<div class="botones botones-4">
+				<p>Invitations</p>
+			</div>
+			<div class="botones botones-5">
+				<p class="opaci">Photography</p>
+			</div>
+			<div class="botones botones-6">
+				<p>Photocall</p>
+			</div>
+			<div class="botones botones-7">
+				<p class="opaci">Damas</p>
+			</div>
+			<div class="botones botones-8">
+				<p>Ilumination</p>
+			</div>
+			<div class="botones botones-9">
+				<p class="opaci">Bouquet</p>
+			</div>
+		</ul>
+	</header>
+	
+	<section class="pin row">
+        <div class="pin-1 col m2 s12"></div>
+        <div class="pin-2 col m2 s12"></div>
+        <div class="pin-3 col m2 s12"></div>
+        <div class="pin-4 col m2 s12"></div>
+        <div class="pin-5 col m2 s12"></div>
+        <div class="pin-6 col m2 s12"></div>
+    </section>
+	
+     <!-- Modal -->
+    <div id="modal-pinterest" class="modal">
+        <a href="#!" class="modal-action modal-close waves-effect btn-flat align right"><i class="large material-icons">close</i></a>
+        <div class="element-modal">
+            <div class="container-one">
+                <div class="row">
+                    <div class="col m12 element-modal__container">     
+                        <div class="row">
+                            <div class="col m12 center">
+                                <a class="modal-images-item" href="dist/img/1.jpg" target="_blank"><img class="modal-images" src="assets/img/1.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12">
+                                <h1 class="element-modal__title">Title</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12">
+                                <div class="col m6">
+                                    <i class="fa fa-upload element-modal__icon" aria-hidden="true"></i>
+                                    <i class="fa fa-check element-modal__icon" aria-hidden="true"></i>
+                                    <i class="fa fa-ellipsis-h element-modal__icon" aria-hidden="true"></i>
+                                </div>
+                                <div class="col m6">
+                                    <a class="btn element-modal__btn right"><i class="fa fa-thumb-tack" aria-hidden="true"></i>Save</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12">
+                                <div class="col m6">
+                                    <p class="pines__user"><i class="fa fa-user-circle-o" aria-hidden="true"></i>User</p>
+                                    <p class="pines__hashtag">#hastag</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12">
+                                <p class="element-modal__description">Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="dist/js/script.js"></script>
+</body>
+</html>
